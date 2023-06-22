@@ -35,7 +35,7 @@ function simularCredito() {
       console.log("Mes " + pago.mes + ": Pago de " + pago.pago);
     });
 
-    // Ejemplo de búsqueda y filtrado en el array de pagosDetallados
+    // búsqueda y filtrado en el array de pagosDetallados
     let mesBuscado = 3;
     let pagoEncontrado = buscarPagoPorMes(pagosDetallados, mesBuscado);
     console.log("Pago del mes " + mesBuscado + ": " + pagoEncontrado.pago);
